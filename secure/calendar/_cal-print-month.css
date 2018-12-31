@@ -1,0 +1,105 @@
+@import url("/font.css");
+
+html {
+	background: #FFF;
+}
+
+body {
+	min-height: 100%; /* Workaround for some mobile browsers for background*/
+}
+
+body, .pure-g [class *= "pure-u"], .pure-g-r [class *= "pure-u"] {
+	font-family: "Open Sans", "Arial", "Verdana", sans-serif;
+}
+
+/* STAFF SCHEDULE*/
+
+#staffschedule {
+	padding: 10px;
+}
+
+#staffschedule table {
+	margin: 0 auto;
+	width: 100%;
+	min-width: 1000px;
+	border: 1px solid #666;
+	border-collapse: collapse;
+}
+
+#staffschedule th {
+	font-size: 1em;
+	color: #FFF;
+	background: #000;
+	height: 30px;
+	vertical-align: middle;
+	font-variant: small-caps;
+}
+
+#staffschedule th, #staffschedule td {
+	width: 14%;
+	border: 1px solid #666;
+	border-collapse: collapse;
+}
+
+#staffschedule td {
+	height: 80px;
+	vertical-align: top;
+}
+
+#staffschedule .calendardate {
+	font-size: .7em;
+	color: #222;
+	text-align: left;
+	font-weight: bold;
+	padding: 2px;
+}
+
+
+.staff-sessions {
+	padding: 10px;
+}
+
+.staff-sessions-odd {
+	background: #DDD;
+}
+
+.session-name {
+	font-size: .9em;
+	font-variant: small-caps;
+	font-weight: bold;
+	text-align: center;
+}
+
+.session-name-staff {
+	font-size: .8em;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.details {
+	text-align: left;
+	padding: 5px 3px;
+}
+
+.details i {
+	width: 15px;
+}
+
+.title {
+	font-variant: small-caps;
+	font-size: 11px;
+	color: #444;
+	font-weight: bold;
+}
+
+.info {
+	font-size: 10px;
+	color: #666;
+	margin-left: 15px;
+}
+
+.notes {
+	font-size: 8px;
+	color: #777;
+	margin-left: 15px;
+}

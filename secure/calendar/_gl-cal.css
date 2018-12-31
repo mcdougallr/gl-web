@@ -1,0 +1,244 @@
+/* START SMALL CALENDAR */
+		
+	.cal-day {
+		background: transparent;
+		border: none;
+		font-size: .9em;
+		min-width: 26px;
+		min-height: 0;
+		padding: 5px 0 5px 0;
+		border-radius: 18px;
+	}
+		
+	#calendar-box {
+		max-width: 245px;
+		margin: 0 auto;
+		padding-top: 15px;
+	}
+	
+	.month-label {
+		font-size: 1.3em;
+		font-weight: normal;
+		font-variant: small-caps;
+		padding: 0;
+		margin: 0 auto;
+		text-align: center;
+		font-family: FTYS !important;
+	}
+	
+	.arrow-button {
+		background: transparent;
+		border: none;
+		font-size: 1em;
+		margin: 0 10px;
+	}
+	
+	#calendar-box table {
+		margin: 0 auto;
+		color: #666;
+	}
+
+	#calendar-box td, th {
+		font-size: .75em;
+		width: 35px;
+		text-align: center;
+		height: 28px;
+		padding: 0px;
+		vertical-align: middle;
+	}	
+		
+	#work_percent {
+		font-size: .8em;
+	}
+		
+	.empty-day {
+		color: #ccc;
+	}
+	
+	.busy-day {
+		color: #039;
+	}
+	
+	.active-day {
+		background: #333;
+		color: #eee;
+		border: #BBB solid 1px;
+	}
+	
+	.cal-options {
+		font-size: .7em;
+		color: #333;
+		font-weight: 300;
+		background: none;
+		outline: none;
+		border: none;
+		padding: 5px 10px;
+		text-decoration: none;
+	}
+	
+	#jump-today.cal-options i {
+		margin: 0 10px 0 0;
+		color: #333;
+	}	
+	
+	#jump-date.cal-options i {
+		margin: 0 0 0 10px;
+		color: #333;
+	}
+	
+	#jump-date-input {
+		width: 100%;
+		top: 0;
+		left: 0;
+		display: none;
+	}
+	#jump-date-select {
+		-webkit-appearance: none;
+		width: 100%;
+		
+	}
+	
+/* START SCHEDULE */
+	
+#schedule-box {
+	padding:  15px;
+}
+
+	.schedule-label {
+		font-family: FTYS !important;
+		font-size: 1.3em;
+		color: #333;
+		font-weight: normal;
+		font-variant:small-caps;
+		padding: 5px 0;
+		margin: 0 5px;
+		text-align: left;
+		border-bottom: 1px solid #222;
+	}
+	
+	@media screen and (max-width: 567px){
+		.schedule-label {
+			text-align: center;
+		}
+	}
+	
+	#schedule .schedule-item {
+		background: transparent;
+		border: none; 
+		text-align: left;
+		margin: 7px 10px;
+		padding: 0;
+		cursor: pointer;
+	}
+
+	#schedule .title {
+		font-variant: small-caps;
+		font-size: .9em;
+		color: #444;
+		font-weight: bold;
+	}
+
+	#schedule .details {
+		text-align: left;
+		border-left: #AAA 1px solid;
+		padding: 0 8px;
+		min-height: 27px;
+	}
+	
+	#schedule .info {
+		font-size: .7em;
+		color: #666;
+	}
+	
+	#schedule .notes {
+		font-size: .6em;
+		color: #777;
+		white-space: pre-wrap;
+	}
+	
+	#schedule .icon {
+		text-align: left;
+	}
+
+	#new-buttons {
+		 text-align: center;
+		 border-bottom: 1px solid #222;
+		 margin: 0 5px;
+		 background: #DDD;
+	}
+	
+	#new-buttons i {
+		font-size: 1.2em;		
+	}
+	
+	.add-button i {
+		margin-top: 2px;
+		font-size: 1em;
+		vertical-align: top;
+	}
+	
+	.add-button {
+		padding: 10px 13px;
+		cursor: pointer;
+	}
+		
+/* START FULL CALENDAR */
+	
+	#cal-window table {
+		border-collapse: collapse;
+		width: 100%;
+		margin: 1%;
+	}
+	
+	#print-cal-button {
+		font-size: .7em; 
+		margin-left: 10px; 
+		vertical-align:2;
+		cursor: pointer;
+	}
+	
+	#cal-window td, #cal-window th {
+		border: 1px solid #222;
+		border-collapse: collapse;
+		font-size: .9em;
+		min-height: 25px;
+		width: 14%;
+		padding: 2px;
+	}
+	
+	#cal-window th {
+		font-variant: small-caps;
+		background: #222;
+		color: #FFF;
+	}
+	
+	#cal-window td {
+		vertical-align: top;
+	}
+	
+	#cal-window .title {
+		font-variant: small-caps;
+		font-weight: bold;
+		font-size: .9em;
+	}
+	
+	#cal-window .info {
+		font-size: .8em;
+	}
+	
+	#cal-window .notes {
+		font-size: .8em;
+	}	
+	
+	#cal-window h2 {
+		font-family: "FTYS", "Georgia", "Verdana", serif;
+		font-size: 1.8em;
+		text-align: center;
+		text-shadow: none;
+	    font-variant: small-caps;
+	    font-weight: normal;
+	}
+
+#print-month i {
+	margin-left: 5px;
+}
