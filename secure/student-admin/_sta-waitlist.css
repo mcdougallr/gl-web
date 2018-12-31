@@ -1,0 +1,75 @@
+h2 {
+		text-align: center;
+		font-size: 1.2em;
+		font-weight: 600;
+		font-variant: small-caps;
+		margin: 5px auto;
+	}
+	#waitlist-container {
+		display: -webkit-flex;
+	   	display: flex;
+	   	-webkit-flex-direction: row; 
+	   	flex-direction: row;
+	   	-webkit-flex-wrap: wrap; 
+  		flex-wrap: wrap;
+	   	-webkit-align-items: stretch;
+	   	align-items: stretch;
+	   	-webkit-justify-content: space-around; 
+  		justify-content: space-around;
+	}
+	.session-list {
+		-webkit-align-items: stretch;
+  		align-items: stretch;
+  		-webkit-align-content: flex-start;
+  		align-content: flex-start;
+  		min-height: 100%;
+  		width: 200px;
+  		border: 1px #222 solid;
+  		background: #DDD;
+  		margin: 3px;
+    	border-radius: 8px;
+    	text-align: left;
+    	font-size: .8em;
+    	color: #222;
+    	text-align: left;
+    	padding: 5px 2px;
+	}
+	.session-list i {
+		margin-left: 5px;
+		cursor: pointer;
+		color: #900;
+	}
+	.session-list a {
+		text-decoration: none;
+		color: #222;
+		display: inline-block;
+	}
+	.student-list {
+		margin-left: 5px;
+		display: block;
+	}
+	.pure-form input {
+		padding: 8px 10px 7px 10px;
+	}
+	.pure-form input, .pure-form select {
+		color: #222;
+		font-family: "Open Sans", "Arial", "Verdana", sans-serif;
+		min-height: 35px;
+		font-size: .9em;
+	}
+	.pure-form select option {
+		margin: 5px;
+	}
+	.input-padding {
+		padding: 0 5px;
+	}
+	.plaintext-button {
+		background: transparent;
+		border: none;
+		font-size: 1.1em;
+		margin: 0 auto;
+		color: #222;
+		font-variant: small-caps;
+		padding: 5px 20px 5px 20px;
+		width: 100%;
+	}

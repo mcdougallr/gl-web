@@ -1,0 +1,153 @@
+#header {
+	background: #C33;
+	min-height: 50px;
+}
+
+#top-text {
+	top: 9px;
+    font-family: FTYS,"Tahoma",serif;
+    font-size: 1.4em;
+    text-shadow: 2px 1px 1px #222;
+}
+
+.menu-button {
+	display: none;
+}
+
+@media screen and (min-width: 568px) and (max-width: 767px){
+	#top-text {
+		font-size: 1.3em;
+    	top: 10px;
+	}
+	.menu-button {
+		display: inline-block;
+	}
+}
+
+@media screen and (max-width: 567px){
+	#top-text {
+		font-size: 1.1em;
+    	top: 8px;
+	}
+	.menu-button {
+		display: inline-block;
+	}
+	#header {
+		min-height: 41px;
+	}
+}
+
+#main {
+	top: 92px;
+}
+
+section {
+	margin-bottom: 30px;
+}
+
+form {
+	padding: 5px;
+}
+
+#staff-menu-button {
+	background: transparent;
+	padding: 0;
+	margin: 0;
+	border: none;
+	width: 100%;
+	color: #FFF;
+}
+
+.plaintext-button {
+	background: transparent;
+	border: none;
+	font-size: 1.1em;
+	margin: 0 auto;
+	color: #000064;
+	font-variant: small-caps;
+	padding: 15px 20px 5px 20px;
+}
+
+select[disabled], textarea[disabled], input[disabled] {
+	background: #222;
+	color: #EEE !important;
+}
+
+label {
+	font-weight: 300;
+	color: #666;
+	text-align: left;
+	font-size: .9em;
+}
+
+.page {
+	display: none;
+}
+
+.gl-main-date {
+	height: 32px;
+	text-align: left;
+}
+
+.pure-form input {
+	color: #222;
+	font-family: "Open Sans", "Arial", "Verdana", sans-serif;
+	min-height: 50px;
+	font-size: .9em;
+	padding: 8px 10px 7px 10px;
+}
+
+.pure-form select option {
+	margin: 5px;
+}
+
+select,
+input[type=date] {
+	-webkit-appearance: none;
+   -moz-appearance: none;
+}
+
+.input-padding {
+	padding: 0 5px;
+}
+
+h1 {
+	position: fixed;
+	top: 50px;
+	left: 0;
+	color: #FFF;
+	background: #222;
+	font-size: 2em;
+	font-variant: small-caps;
+	font-weight: normal;
+	margin: 0 auto;
+	text-align: center;
+	font-family: FTYS, Georgia, Verdana, serif;
+	padding:  1px 10px 4px; 
+	width: 100%
+}
+
+.center {
+	text-align: center;
+}
+
+.save-icon {
+	font-size: .8em;
+	display: none;
+}
+
+.submit-button {
+	outline: none;
+	background: #39F;
+	min-height: 0;
+	border: 1px solid #222;
+	color: #FFF;
+	border-radius: 15px;
+	padding: 10px 15px;
+	margin: 10px;
+	box-shadow: 1px 1px 2px #888;
+}
+
+.submit-button i {
+	margin-right: 6px;
+}

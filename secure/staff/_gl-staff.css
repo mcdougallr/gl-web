@@ -1,0 +1,313 @@
+#header {
+	background: #39F;
+}
+
+#top-text, 
+#top-text-small {
+	top: 11px;
+}
+
+#top-text-small {
+	display: none;
+}
+
+@media screen and (min-width: 568px) and (max-width: 767px){
+	#top-text {
+		font-size: 1.1em;
+		top: 13px;
+	}
+}
+
+#main {
+	top: 100px;
+}
+
+section {
+	margin-bottom: 30px;
+}
+
+form {
+	padding: 5px;
+}
+
+#staff-menu-button {
+	background: transparent;
+	padding: 0;
+	margin: 0;
+	border: none;
+	width: 100%;
+	color: #FFF;
+}
+
+.plaintext-button {
+	background: transparent;
+	border: none;
+	font-size: 1.1em;
+	margin: 0 auto;
+	color: #000064;
+	font-variant: small-caps;
+	padding: 15px 20px 5px 20px;
+}
+
+select[disabled], textarea[disabled], input[disabled] {
+	background: #222;
+	color: #EEE !important;
+}
+
+label {
+	font-weight: 300;
+	color: #666;
+	text-align: left;
+	font-size: .9em;
+}
+
+.page {
+	display: none;
+}
+
+.gl-main-date {
+	height: 32px;
+	text-align: left;
+}
+
+.pure-form input {
+	padding: 8px 10px 7px 10px;
+}
+
+.pure-form input, .pure-form textarea, .pure-form select {
+	color: #222;
+	font-family: "Open Sans", "Arial", "Verdana", sans-serif;
+	min-height: 50px;
+	font-size: .9em;
+}
+
+.pure-form select option {
+	margin: 5px;
+}
+
+select,
+input[type=date] {
+	-webkit-appearance: none;
+   -moz-appearance: none;
+}
+
+.input-padding {
+	padding: 0 5px;
+}
+
+h1 {
+	position: fixed;
+	top: 50px;
+	left: 0;
+	color: #FFF;
+	background: #222;
+	font-size: 2em;
+	font-variant: small-caps;
+	font-weight: normal;
+	margin: 0 auto;
+	text-align: center;
+	font-family: FTYS, Georgia, Verdana, serif;
+	padding:  1px 10px 4px; 
+	width: 100%
+}
+
+.center {
+	text-align: center;
+}
+
+.save-icon {
+	font-size: .8em;
+	display: none;
+}
+
+.submit-button {
+	outline: none;
+	background: #39F;
+	min-height: 0;
+	border: 1px solid #222;
+	color: #FFF;
+	border-radius: 15px;
+	padding: 10px 15px;
+	margin: 10px;
+	box-shadow: 1px 1px 2px #888;
+}
+
+.submit-button i {
+	margin-right: 6px;
+}
+
+/* ADMIN */
+
+	.adminchecklist label {
+		display: inline;
+		vertical-align: 1px;
+	}
+	
+	.checkstyle {
+		text-align:left;
+	}
+	
+	.checkstyle input {
+		min-height: 10px;
+	}
+
+@media screen and (max-width: 567px){
+	.adminchecklist {
+		padding-right: 0;
+		border-right: none;
+	}
+}
+
+
+/* PAYROLL TABLE */
+.gl-staff-payroll {
+	font-size: .9em;
+	width: 100%;
+	margin: 1%;
+}
+
+@media screen and (max-width: 767px) {
+	.gl-staff-payroll {
+		font-size: .7em;
+	}
+}
+
+.gl-staff-payroll th {
+	background: #333;
+	color: #FFF;
+	font-variant: small-caps;
+}
+
+.gl-staff-payroll td {
+	text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+	.gl-staff-payroll td {
+		padding: 2px 2px;
+	}
+}
+
+.gl-staff-payroll tr.periodtotal {
+	background: #CCC;
+	font-style: italic;
+}
+
+.gl-staff-payroll td.periodtotal, .gl-staff-payroll td.summertotal {
+	text-align: right;
+}
+
+.gl-staff-payroll tr.summertotal {
+	background: #AAA;
+	font-style: italic;
+	font-weight: bold;
+}
+
+/* CONTRACT */
+
+#contract a {
+	text-decoration: none;
+}
+
+/* STAFF SCHEDULE*/
+
+#staffschedule {
+	padding: 10px;
+}
+
+#staffschedule table {
+	margin: 0 auto;
+	width: 100%;
+	border: 1px solid #666;
+	border-collapse: collapse;
+}
+
+#staffschedule th {
+	font-size: 1em;
+	color: #FFF;
+	background: #000;
+	height: 30px;
+	vertical-align: middle;
+}
+
+#staffschedule th, #staffschedule td {
+	width: 14%;
+	border: 1px solid #666;
+	border-collapse: collapse;
+}
+
+#staffschedule td {
+	height: 80px;
+	vertical-align: top;
+}
+
+#staffschedule .calendardate {
+	font-size: .7em;
+	color: #666;
+	text-align: left;
+	font-weight: bold;
+}
+
+#staffschedule .fulltime {
+	color: #0000A0;
+}
+
+#staffschedule .halftime {
+	color: #0033FF;
+}
+
+#staffschedule .nulltime {
+	color: #000;
+}
+
+#staffschedule .fulltime, #staffschedule .halftime, #staffschedule .nulltime {
+	font-size: .7em;
+	text-align: center;
+}
+
+/* RESOURCES */
+
+#resources .header {
+	font-size: 1.4em;
+	font-variant: small-caps;
+	font-family: FTYS, Georgia, Verdana, serif;
+	text-decoration: underline;
+}
+
+#resources .resource-padding {
+	margin: 15px;
+}
+
+#resources a {
+	text-decoration: none;
+	color: #222;
+	font-size: .9em;
+	margin:  5px 0;
+	display: block;
+}
+
+#resources i {
+	margin-right: 7px;
+}
+
+@media screen and (max-width: 567px){
+	.nav-menu {
+		top: 42px;
+	}
+	#main {
+		top: 84px;
+	}
+	h1 {
+		top: 42px;
+		font-size: 1.7em;
+	}
+	form {
+		padding: 8px;
+	}
+	#top-text {
+		display: none;
+	}
+	#top-text-small {
+		display: inline-block;
+	}
+}

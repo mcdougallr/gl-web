@@ -1,0 +1,150 @@
+/* FOOD TABLE */
+
+#food-table table,
+#order-table table {
+	width: 95%;
+	max-width: 900px;
+	border-color: #222;
+	background: #FFF;
+	font-size: 1em;
+	margin: 0 auto 25px;
+}
+
+#food-table th,
+#order-table th {
+	background: #222;
+	color: #FFF;
+	border: 1px #222 solid;
+	font-weight: 400;
+	font-variant: small-caps;
+	padding: 7px 5px;
+}	
+
+#food-table th i,
+#order-table th i {
+	color: #FFF;
+}
+
+#food-table td,
+#order-table td {
+	border: 1px #222 solid;
+	font-size: .8em;
+	text-align: center;
+	padding: 7px 5px;
+}	
+
+#food-table td i,
+#order-table td i {
+	margin: 2px 5px;
+}
+
+.plaintext-button {
+	background: transparent;
+	border: none;
+	font-size: 1.1em;
+	color: #063;
+	font-variant: small-caps;
+	font-weight: 400;
+	text-decoration: none;
+	padding: 5px 15px;
+}
+
+label {
+	font-weight: 300;
+	color: #666;
+	text-align: left;
+	font-size: .8em;
+}
+
+.pure-form input {
+	padding: 8px 10px 7px 10px;
+}
+
+.pure-form input, .pure-form textarea, .pure-form select {
+	color: #222;
+	font-family: "Open Sans", "Arial", "Verdana", sans-serif;
+	min-height: 40px;
+	font-size: .8em;
+}
+
+.pure-form select option {
+	margin: 5px;
+}
+
+select,
+input[type=date] {
+	-webkit-appearance: none;
+   -moz-appearance: none;
+}
+
+.input-padding {
+	padding: 0 5px;
+}
+
+h2 {
+	text-align: center;
+	font-size: 1.2em;
+	font-weight: 600;
+	font-variant: small-caps;
+	margin: 5px auto;
+}
+
+#supplier-list-container {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: row; 
+	flex-direction: row;
+	-webkit-flex-wrap: wrap; 
+	flex-wrap: wrap;
+	-webkit-align-items: stretch;
+	align-items: stretch;
+	-webkit-justify-content: space-around; 
+	justify-content: center;
+}
+
+.supplier-list {
+	-webkit-align-items: stretch;
+	align-items: stretch;
+	-webkit-align-content: flex-start;
+	align-content: flex-start;
+	min-height: 100%;
+	width: 300px;
+	border: 1px #222 solid;
+	background: #DDD;
+	margin: 15px;
+	border-radius: 8px;
+	text-align: left;
+	color: #222;
+	text-align: left;
+	padding: 5px 10px;
+}
+
+.supplier-name {
+	font-size: .8em;
+	text-align: left;
+	width: 100%;
+    color: #333;
+	font-variant: none;
+	font-family: "Open Sans", "Arial", "Verdana", sans-serif;
+}
+
+@media screen and (min-width: 568px) and (max-width: 767px){
+	#food-table th {
+		font-size: .8em;
+	}		
+	#food-table td {
+		font-size: .75em;
+	}	
+}
+
+@media screen and (max-width: 567px){
+	#food-table th {
+		font-size: .8em;
+	}		
+	#food-table td {
+		font-size: .7em;
+	}	
+	.food-table {
+		display: none;
+	}
+}

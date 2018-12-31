@@ -1,0 +1,272 @@
+@import url("/font.css");
+
+html {
+	background: #FFF;
+}
+
+body {
+	min-height: 100%; /* Workaround for some mobile browsers for background*/
+}
+
+body, .pure-g [class *= "pure-u"], .pure-g-r [class *= "pure-u"] {
+	font-family: "Open Sans", "Arial", "Verdana", sans-serif;
+}
+
+#working {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(255,255,255,0.7);
+	text-align: center;
+	z-index: 999;
+	display: none;
+}
+
+#loading {
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 60px;
+    width: 60px;
+    margin: -30px 0 0 -30px;
+}
+
+#header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 99;
+	width: 100%;
+	border: 1px solid #222;
+}
+
+#top-text, 
+#top-text-small {
+	position: absolute;
+	display: inline-block;
+	font-size: 1.2em;
+	font-weight: 300;
+	color: #FFF;
+	padding-left: 3px;
+}
+
+#db-menu-button {
+	margin-top: 0;
+	width: 44px;
+	height: 41px;
+	cursor: pointer;
+}
+
+#header-left {
+	padding: 5px 0 7px 5px;
+}
+
+#header-right {
+	padding: 13px 10px 9px 0;
+}
+
+#header-right .fa {
+	font-size: 1.6em;
+	color: #FFF;
+	vertical-align: 2px;
+	cursor: pointer;
+	text-shadow: 1px 1px 1px #222;
+	padding: 0 5px;
+}
+
+/* NAV MENU */
+#db-menu {
+	border: #222 solid 1px;
+	left: -277px;
+}
+
+#db-menu.nav-menu li {
+	border-bottom: #222 1px solid;
+}
+
+.nav-menu {
+	position: fixed;
+	background: #222;
+	top: 51px;
+	text-align: left;
+	width: 275px;
+	padding: 0;
+	z-index: 999;
+	height: 100%;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+.nav-menu ul {
+	padding: 0;
+	margin: 0;
+}
+
+.nav-menu ul > ul {
+	display:  none;
+}
+
+.nav-menu li {
+	display: block;
+}
+
+.nav-menu a {
+	color: #FFF;
+	font-weight: 300;
+	cursor: pointer;
+	text-decoration: none;
+	font-size: .9em;
+}
+
+.nav-menu i {
+	margin-right: 10px;
+	width: 15px;
+	text-align: center;
+}
+
+.reg li {
+	padding: 10px 15px;
+}
+
+.thin li {
+	padding: 6px 15px;
+}
+
+.nav-menu.right-menu {
+	right: -277px;
+}
+
+.nav-menu.right-menu li {
+	border-bottom: #888 1px solid;
+}
+
+.menu-l2 li {
+	background: #666;
+}
+
+/* MAIN */
+#main {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+/* STAFF WWW */
+
+#staff-list-container {
+		display: -webkit-flex;
+	   	display: flex;
+	   	-webkit-flex-direction: row; 
+	   	flex-direction: row;
+	   	-webkit-flex-wrap: wrap; 
+  		flex-wrap: wrap;
+	   	-webkit-align-items: stretch;
+	   	align-items: stretch;
+	   	-webkit-justify-content: space-around; 
+  		justify-content: space-around;
+	}
+
+.staff-list {
+		-webkit-align-items: stretch;
+  		align-items: stretch;
+  		-webkit-align-content: flex-start;
+  		align-content: flex-start;
+  		/*min-height: 100%;*/
+  		width: 300px;
+  		border: 1px #222 solid;
+  		background: #DDD;
+  		margin: 3px;
+    	border-radius: 8px;
+    	text-align: left;
+    	color: #222;
+    	text-align: left;
+    	padding: 5px 2px;
+	}
+
+.staff-list i {
+		margin-left: 3px;
+		cursor: pointer;
+		color: #900;
+}
+
+.staff-sessions:first-child {
+	margin-top: 0px;
+}
+
+.staff-sessions {
+	margin: 10px;
+	border: 1px solid #AAA;
+	padding: 0;
+	background: #F2F2F2;
+}
+
+.staff-sessions-odd {
+	background: #DDD;
+}
+
+.session-name {
+	font-size: .9em;
+	font-variant: small-caps;
+	font-weight: bold;
+	text-align: center;
+	width: 100%;
+    color: #333;
+    background: #DDD;
+    padding: 2px 0;
+}
+
+.session-name-staff {
+	font-size: 1em;
+	text-align: center;
+	margin: 5px;
+}
+
+.session-name-staff a {
+	color: #222;
+	text-decoration: none;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (min-width: 568px) and (max-width: 767px){
+	#loading {
+	    height: 50px;
+	    width: 50px;
+	    margin: -25px 0 0 -25px;
+	}
+}
+
+@media screen and (max-width: 567px){
+	#loading {
+	    height: 40px;
+	    width: 40px;
+	    margin: -20px 0 0 -20px;
+	}
+	.nav-menu {
+		top: 42px;
+	}
+	#top-text, 
+	#top-text-small {
+		font-size: .95em;
+		top: 9px;
+	}
+	#db-menu-button {
+		margin-top: 0;
+		width: 33px;
+		height: 30px;
+	}
+	#header-left {
+		padding: 5px 0 0 5px;
+	}
+	#header-right {
+		padding: 11px 10px 7px 0;
+	}
+	#header-right .fa {
+		font-size: 1.2em;
+	}	
+}

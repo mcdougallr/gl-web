@@ -1,0 +1,54 @@
+@import url("/font.css");
+
+	body {
+		background: #FFF;
+		color: #000;
+		font-family: "Open Sans", "Arial", "Verdana", sans-serif;
+		-webkit-print-color-adjust:exact
+	}
+
+	h1 {
+		font-family: FTYS, Georgia, Verdana, serif;
+		font-size: 2.5em;
+		font-variant: small-caps;
+		margin: 1px auto;
+	}
+	
+	h2 {
+		font-size: 1.3em;
+		margin: 1px auto;
+	}
+	
+	h3 {
+		font-size: .8em;
+		margin: 1px auto;
+	}
+	
+	h4 {
+		font-size: .4em;
+		font-style: italic;
+		margin: 1px auto;
+	}
+
+	p {
+		font-size: .8em;
+		margin: 10px auto;
+	}
+	
+	.pagebreak {
+		page-break-after: always;
+	}
+	
+	#contract table {
+		border: none;
+		border-collapse: collapse;
+		font-size: .8em;
+		width: 99%;
+		margin: 0 auto;
+	}
+	
+	#contract td {
+		border: none;
+		vertical-align: top;
+		
+	}

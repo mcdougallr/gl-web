@@ -1,0 +1,92 @@
+/* SESSION TABLE */
+#session-table table {
+	width: 95%;
+	border-color: #222;
+	background: #FFF;
+	font-size: .9em;
+	margin: 0 auto;
+	margin-bottom: 25px;
+}
+
+#session-table th {
+	background: #222;
+	color: #FFF;
+	border-color: #222;
+	font-weight: 400;
+	font-size: 1em;
+	font-variant: small-caps;
+	padding: 7px 5px;
+}	
+
+#session-table td {
+	border-color: #222;
+	font-size: .9em;
+	text-align: center;
+	padding: 7px 5px;
+}	
+
+@media screen and (min-width: 568px) and (max-width: 767px){
+	#session-table th {
+		font-size: .8em;
+	}		
+	#session-table td {
+		font-size: .75em;
+	}	
+}
+
+@media screen and (max-width: 567px){
+	#session-table th {
+		font-size: .8em;
+	}		
+	#session-table td {
+		font-size: .7em;
+	}	
+	.hidesmall {
+		display: none;
+	}
+}
+
+/* REPORT SECTION */
+
+.plaintext-button {
+	background: transparent;
+	border: none;
+	font-size: 1.1em;
+	color: #685191;
+	font-variant: small-caps;
+	font-weight: 400;
+	text-decoration: none;
+}
+
+#report-section form,
+#medform-print {
+	border: #AAA 1px solid;
+	width: 90%;
+	margin: 0 auto;
+	padding: 10px;
+	font-size: .8em;
+	text-align: center;
+	margin-bottom: 25px;
+	background: #F2F2F2;
+}
+
+#report-section select {
+	margin: 5px auto;
+	width: 100%; 
+	min-height: 40px;
+}
+
+select,
+input[type=date] {
+	-webkit-appearance: none;
+   -moz-appearance: none;
+}
+
+#medform-print a {
+	background: transparent;
+	border: none;
+	font-size: 1.3em;
+	color: #6F9FC4;
+	font-variant: small-caps;
+}
+

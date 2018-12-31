@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="index.php" server="outed.limestone.on.ca" local="131437639961138321" remote="131437640400000000" Dst="2" />
+<file name="_ses-trips.css" server="outed.limestone.on.ca" local="131354002572247294" remote="131354002200000000" Dst="2" />
+<file name="ses-trips.php" server="outed.limestone.on.ca" local="131437647357657476" remote="131437650600000000" Dst="2" />
+<file name="_ses-edit.css" server="outed.limestone.on.ca" local="131353991774013289" remote="131353991400000000" Dst="2" />
+<file name="process-trip-input.php" server="outed.limestone.on.ca" local="131354456841275957" remote="131354456400000000" Dst="2" />
+<file name="process-tripstaff-delete.php" server="outed.limestone.on.ca" local="131354490959828974" remote="131354505600000000" Dst="2" />
+<file name="process-tripday-delete.php" server="outed.limestone.on.ca" local="131357469726524102" remote="131358786600000000" Dst="2" />
+<file name="process-tripday-input.php" server="outed.limestone.on.ca" local="131357481253802999" remote="131358786600000000" Dst="2" />
+<file name="process-tripday-load.php" server="outed.limestone.on.ca" local="131357815816412133" remote="131358786600000000" Dst="2" />
+<file name="process-tripstaff-input.php" server="outed.limestone.on.ca" local="131357422416709378" remote="131358786600000000" Dst="2" />
+<file name="process-tripstaff-load.php" server="outed.limestone.on.ca" local="131357816911347632" remote="131358786600000000" Dst="2" />
+<file name="process-tripstudent-delete.php" server="outed.limestone.on.ca" local="131357411719427723" remote="131358786600000000" Dst="2" />
+<file name="process-tripstudent-input.php" server="outed.limestone.on.ca" local="131357422938812759" remote="131358786600000000" Dst="2" />
+<file name="process-tripstudent-load.php" server="outed.limestone.on.ca" local="131357816410000000" remote="131358786600000000" Dst="2" />
+<file name="ses-tripdays.php" server="outed.limestone.on.ca" local="131357815358141180" remote="131358786600000000" Dst="2" />
+<file name="ses-tripstaffing.php" server="outed.limestone.on.ca" local="131354561851042252" remote="131358786600000000" Dst="2" />
+<file name="ses-tripstudents.php" server="outed.limestone.on.ca" local="131357483785070876" remote="131358786600000000" Dst="2" />
+<file name="edit-staffing.php" server="outed.limestone.on.ca" local="131354506200000000" remote="131354506200000000" Dst="2" />
+<file name="process-load-staff.php" server="outed.limestone.on.ca" local="131354505600000000" remote="131354505600000000" Dst="2" />
+<file name="process-staff-search.php" server="outed.limestone.on.ca" local="131235696000000000" remote="131235696000000000" Dst="2" />
+<file name="sa-report-pick-medforms.php" server="outed.limestone.on.ca" local="131046480000000000" remote="131046480000000000" Dst="2" />
+<file name="sa-report-pick-paysheets.php" server="outed.limestone.on.ca" local="131117328000000000" remote="131117328000000000" Dst="2" />
+<file name="ses-header.php" server="outed.limestone.on.ca" local="131433245531142855" remote="131433245400000000" Dst="2" />
+<file name="ses-debrief.php" server="outed.limestone.on.ca" local="131452977296456667" remote="131452986600000000" Dst="2" />
+<file name="process-debrief-input.php" server="outed.limestone.on.ca" local="131453012308129728" remote="131453012400000000" Dst="2" />
+</dwsync>

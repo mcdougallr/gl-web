@@ -1,0 +1,45 @@
+#session-table a {
+	color: #222;
+	background: transparent;
+	border: none;
+	text-decoration: none;
+}	
+
+/* SESSION TABLE */
+#session-table table {
+	width: 90%;
+	max-width: 500px;
+	border-color: #222;
+	background: #DDD;
+	font-size: .9em;
+	margin: 0 auto;
+	margin-bottom: 25px;
+}
+
+#session-table th {
+	background: #222;
+	color: #FFF;
+	border-color: #222;
+	font-weight: 400;
+	font-size: 1em;
+	font-variant: small-caps;
+	padding: 7px 5px;
+}	
+
+#session-table td {
+	border-color: #222;
+	font-size: .9em;
+	text-align: center;
+	padding: 7px 5px;
+	background: #FFF;
+}	
+
+/* REPORT PAGE */
+
+.plaintext-button {
+	background: transparent;
+	border: none;
+	font-size: 1.3em;
+	color: #FF8033;
+	font-variant: small-caps;
+}

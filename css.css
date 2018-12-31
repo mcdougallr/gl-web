@@ -1,0 +1,465 @@
+@import url("font.css");
+@import url("header-footer.css");
+
+/* For all Pages */
+
+#gl-main {
+	position: absolute;
+	top: 109px;
+	left: 0;
+	bottom: 5px;
+	width: 100%;
+	background: url("../index_files/b.gif") no-repeat center center;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+	overflow-y: auto;
+	overflow-x: hidden;
+	text-align: center;
+}
+
+#gl-wrapper {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 5px 10px;
+}
+
+#footer-padding {
+	height: 40px;
+}
+
+@media screen and (min-width: 568px) and (max-width: 767px){
+	#gl-main {
+		top: 57px;
+		bottom: 5px;
+	}	
+	#footer-padding {
+		height: 32px;
+	}
+}
+
+@media screen and (max-width: 567px) {
+	#gl-main {
+		top: 80px;
+		bottom: 0;
+	}
+	#footer-padding {
+		height: 24px;
+	}
+}
+
+/* index.php */
+
+#main-title {
+	font-size: 2em;
+	font-family: FTYS,"Georgia", "Verdana",serif;
+	text-align: center;
+	color: #000;
+	text-shadow: 1px 1px #FFF;
+}
+
+
+#main-text {
+	font-size: .9em;
+	text-align: center;
+}	
+
+#main-text p {
+	font-size: 1em;
+	margin: 10px auto;
+}
+
+#gl-welcome {
+	display: block;
+	max-width: 1000px
+}
+
+.return {
+	display: none;
+}
+
+#gl-news {
+	width: 100%;
+	background: rgba(255,255,255,0.8);
+	margin: 5px auto 14px;
+}
+
+#news-text {
+	display: -webkit-flex;
+   	display: flex;
+   	-webkit-flex-direction: row; 
+   	flex-direction: row;
+   	-webkit-flex-wrap: nowrap; 
+	flex-wrap: nowrap;
+   	-webkit-align-items: stretch;
+   	align-items: stretch;
+   	-webkit-justify-content: space-around; 
+	justify-content: space-around;
+	padding: 10px 0;
+	width: 100%;
+	font-size: .9em;
+	color: #000;
+}
+
+.news-item-wrapper {
+	-webkit-flex: auto;
+	flex: auto;
+	-webkit-align-items: stretch;
+	align-items: stretch;
+	-webkit-align-content: flex-start;
+	align-content: flex-start;
+	min-height: 100%;
+	text-align: center;
+	font-size: .8em;
+	border-right: #999 1px solid;
+	padding: 0 10px;
+}
+
+#news-title {
+	font-size: 1.4em;
+	font-family: FTYS, "Georgia", "Verdana", serif;
+	color: #222;
+	text-align: center;
+	text-shadow: 1px 1px #aaa;
+}
+
+#news-text a {
+	text-decoration: none;
+	color: #000;
+	text-align: left;
+}
+
+.news-line {
+	display: none;
+	margin: 4px 10px;
+}
+
+#siteup {
+	text-align: center;
+	margin-top: 20px;
+}
+
+@media screen and (min-width: 568px) and (max-width: 767px){
+	#news-text .icon {
+	margin: 0 10px 10px 0;
+	}
+	#main-title {
+		font-size: 1.7em;
+		margin: 0 auto;
+	}
+	#gl-ads
+	.course-icon-label {
+		font-size: .55em;
+	}
+	#news-title {
+		font-size: 1.3em;
+	}
+	.news-item-wrapper {
+		padding: 5px 10px;
+	}
+}
+
+@media screen and (max-width: 567px) {
+	#news-title {
+		font-size: 1.2em;
+	}
+	#main-title .return {
+		display: block;
+	}
+	#main-title {
+		font-size: 1.5em;
+	}
+	#gl-news {
+		width: 100%;
+		margin: 5px auto;
+	}	
+	.news-line {
+		display: block;
+	}
+	.news-line:last-child {
+		display: none;
+	}
+	#news-text {
+	   	-webkit-flex-direction: column; 
+	   	flex-direction: column;
+	}
+	.news-item-wrapper {
+		border-right: none;
+	}
+}
+
+
+/* Course Pages */
+
+	#course-title {
+		font-size: 1.9em;
+		font-family: FTYS,"Georgia", "Verdana",serif;
+		text-align: center;
+		color: #000;
+		text-shadow: 1px 1px #AAA;
+		padding: 0 0 5px;
+	}
+	hr {
+		margin: 0;
+	}
+	#course-overview {
+		display: -webkit-flex;
+	   	display: flex;
+	   	-webkit-flex-direction: row; 
+	   	flex-direction: row;
+	   	-webkit-flex-wrap: nowrap; 
+  		flex-wrap: nowrap;
+	   	-webkit-align-items: stretch;
+	   	align-items: stretch;
+	   	-webkit-justify-content: space-around; 
+  		justify-content: space-around;
+  		padding: 10px 0;
+	}
+	#course-menu {
+		-webkit-flex: auto;
+  		flex: auto;
+  		-webkit-align-items: stretch;
+  		align-items: stretch;
+  		-webkit-align-content: flex-start;
+  		align-content: flex-start;
+  		width: 30%;
+  		min-height: 100%;
+  		border: 1px solid #222;
+		background: url("/index_files/footer-pattern.png") repeat;
+		font-variant: small-caps;
+		border-radius: 10px;
+	    text-align: left;
+	}
+	h1 {
+		font-size: 1.4em;
+		font-family: FTYS, "Georgia", "Verdana", serif;
+		text-align: center;
+		margin: 0 auto 5px;
+		font-weight: normal;
+		font-variant: small-caps;
+		color: #FFF;
+		text-decoration: underline;
+	}
+	#course-menu .icon {
+		display: inline-block;
+		text-align: center;
+		font-size: 1em;
+		padding: 2px 7px 2px 5px;
+		width: 20px;
+	}	
+	#course-menu a,
+	#course-menu .detail {
+		color: #FFF;
+		font-size: 1em;
+		display: block;
+		padding: 4px;
+		text-decoration: none;
+		font-weight: 400;
+		border-bottom: 1px solid #555;
+	}
+	#course-menu a:last-child {
+		border-bottom: none;
+	}
+	#course-menu span {
+		font-size: .75em;
+	}	
+	#course-text {
+		-webkit-flex: auto;
+  		flex: auto;
+  		-webkit-align-self: center;
+  		align-self: center;
+  		-webkit-align-content: center;
+  		align-content: center;
+		text-align: center;
+		width: 70%;
+		padding: 0 10px;
+	}	
+	#course-text p {
+		font-size: 1em;
+		font-weight: 400;
+		margin: 0 auto 10px;
+	}	
+
+	@media screen and (min-width: 501px) and (max-width: 767px){
+		#course-menu a,
+		#course-menu .detail {
+			font-size: .9em;
+		}
+		#course-menu span {
+			font-size: .7em;
+		}
+		#course-text p {
+			font-size: .8em;
+		}
+		h1 {
+			font-size: 1.2em;
+		}
+		#course-title {
+			font-size: 1.5em;
+		}
+		#course-menu {
+			width: 40%;
+		}
+		#course-text {
+			width: 60%;
+		}
+	}
+	
+	@media screen and (max-width: 500px) {
+		#course-menu,
+		#course-text {
+			width: 100%;
+		}
+		#course-menu a,
+		#course-menu .detail {
+			font-size: .9em;
+		}
+		#course-menu span {
+			font-size: .7em;
+		}
+		#course-text p {
+			font-size: .8em;
+			margin: 10px;
+		}
+		h1 {
+			font-size: 1.2em;
+		}
+		#course-title {
+			font-size: 1.5em;
+		}
+		#course-overview {
+	   		-webkit-flex-direction: column; 
+	   		flex-direction: column;
+	   	}
+	   	#course-title {
+			font-size: 1.5em;
+		}	
+	}
+
+/* Other Pages */
+
+.form-info {
+	text-align: center;
+	margin: 30px 5px 30px;
+}
+
+
+.sub-title,
+.resource-title {
+	font-size: 1.3em;
+	font-family: FTYS, "Georgia", "Verdana", serif;
+}
+.sub-link a {
+	text-decoration: none;
+	color: #222;
+	font-size: .8em;
+}
+.form-info {
+	text-align: center;
+	margin: 5px;
+}
+
+#icon-set {
+	margin: 0px auto;
+	max-width: 600px;
+	padding: 0 10px;
+}
+
+.course-icon-label {
+	font-size: .6em;
+}
+
+#icon-set a {
+	text-decoration: none;
+	color: #222;
+}
+.icon {
+	text-align: center;
+}
+
+h2 {
+	font-size: 1.1em;
+	font-family: FTYS, "Georgia", "Verdana", serif;
+	font-weight: normal;
+}
+h3 {
+	font-size: .9em;
+	font-family: FTYS, "Georgia", "Verdana", serif;
+	font-weight: normal;
+}
+
+/* slider css */
+
+	.slider-container {
+		max-width: 1000px; 
+		margin: 0 auto; 
+		border: 2px solid #222; 
+	}
+ 
+	#slider1_container {
+		position: relative; 
+		width: 1000px; 
+		height: 300px;
+	} 
+	 
+	.gl-slider-slides {
+		cursor: move; 
+		position: absolute; 
+		left: 0px; 
+		top: 0px; 
+		width:1000px; 
+		height:300px; 
+		overflow: hidden;
+	}
+	.gl-slider-caption {
+		position: absolute; 
+		top: 251px; 
+		left: 0px; 
+		width: 1000px; 
+		height: 50px;
+	}
+	.gl-slider-caption-box {
+		position: absolute; 
+		top: 0px; 
+		left: 0px; 
+		width: 1000px; 
+		height: 50px; 
+		background-color: Black; 
+		opacity: 0.5; 
+		filter: alpha(opacity=50);
+	}
+	.gl-slider-caption-text {
+		font-family: "Fira Sans", "Arial", "Verdana", sans-serif;
+		 position: absolute; 
+		 top: 0px; 
+		 left: 0px; 
+		 width: 1000px; 
+		 height: 50px; 
+		 color: #FFF; 
+		 font-size: 1.2em; 
+		 line-height: 50px; 
+		 text-align: center;
+	}
+
+	/* slider button position */
+	.jssora16l, .jssora16r, .jssora16ldn, .jssora16rdn
+	{
+	    position: absolute;
+	    cursor: pointer;
+	    display: block;
+	    background: url(/courses/img/a16.png) no-repeat;
+	    overflow:hidden;
+	}
+	.jssora16l { background-position: -19px -42px; }
+	.jssora16r { background-position: -79px -42px; }
+	.jssora16l:hover { background-position: -139px -42px; }
+	.jssora16r:hover { background-position: -199px -42px; }
+	.jssora16ldn { background-position: -259px -42px; }
+	.jssora16rdn { background-position: -319px -42px; }	
+	
+	@media screen and (max-width: 600px) {
+		#slider1_container, .gl-slider-slides, .gl-slider-caption, .gl-slider-caption-box, .gl-slider-caption-text {
+		 width: 600px;
+		}
+	}

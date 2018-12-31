@@ -1,0 +1,57 @@
+#session-table input,
+#session-table select {
+	padding: 2px;
+	border: none;
+	background: #F7F7F7;
+	width: 100%;
+	min-height: 30px;
+}
+
+select,
+input[type=date] {
+	-webkit-appearance: none;
+   -moz-appearance: none;
+}
+
+#session-table table {
+	border-collapse: collapse;
+	width: 90%;
+	max-width: 800px;
+	border: 1px solid #222;
+	background: #DDD;
+	margin: 0 auto;
+	margin-bottom: 25px;
+}
+
+#session-table th {
+	background: #222;
+	color: #FFF;
+	border: 1px solid #222;
+	font-weight: 400;
+	font-size: 1em;
+	font-variant: small-caps;
+	padding: 7px 5px;
+}	
+
+#session-table td {
+	width: 20%;
+	border: 1px solid #222;
+	font-size: .9em;
+	text-align: center;
+	padding: 7px 5px;
+	background: #FFF;
+}	
+
+.session-name {
+	text-align: left;
+	font-size: 1em;
+} 
+
+@media screen and (max-width: 557px){
+	#session-table th {
+		font-size: .8em;
+	}	
+	#session-table td {
+		font-size: .7em;
+	}	
+}

@@ -1,0 +1,224 @@
+@import url("/font.css");
+
+html {
+  background: #FFF;
+}
+
+body {
+	min-height:100%;
+}	
+	
+body,
+.pure-g [class *= "pure-u"],
+.pure-g-r [class *= "pure-u"] {
+	font-family: 'Nunito', "Arial", "Verdana", sans-serif;
+}
+
+input[type="text"],
+input[type="date"],
+select,
+textarea {
+	font-family: 'Nunito', "Arial", "Verdana", sans-serif;
+	font-size: .75em;
+	color: #222;
+	-webkit-appearance: none;
+	min-height: 36px;
+}
+
+#school-login form {
+	width: 250px;
+	margin: 0 auto;
+}
+
+#school-login label {
+	text-align: center;
+  	margin: 10px auto;
+}
+
+#school-login input {
+	width: 150px;
+	margin: 5px auto;
+	display: block;
+}
+
+#school-login button {
+	background: #444;
+	color: #FFF;
+	padding: 5px 10px;
+	font-size: .8em;
+	border-radius: 3px;
+	border: solid 1px #CCC;
+	margin: 5px auto;
+	display: block;
+}
+
+.plaintext-button {
+	background: transparent;
+	border: none;
+	font-size: 1.1em;
+	margin: 0 auto;
+	color: #900;
+	font-variant: small-caps;
+	padding: 10px;
+}
+
+#school-menu {
+	text-align: left;
+	margin-top: 10px;
+}
+
+#mobile-menu {
+	display: none;
+}
+
+.school-menu-button {
+	background: transparent;
+	border: none;
+	font-size: 1em;
+	margin: 0 10px;
+	color: #900;
+	font-variant: small-caps;
+	padding: 10px;
+	display: block;
+	text-decoration: none;
+}
+
+.menu-icon {
+	min-width: 25px;
+}
+
+p {
+	text-align: center;
+	font-size: .75em;
+}
+
+h1 {
+	position: fixed;
+	top: 52px;
+	left: 0;
+	width: 100%;
+	background: #222;
+	border-radius: 0;
+	font-family: FTYS,"Tahoma",serif;
+	color: #FFF;
+	font-size: 1.6em;
+	font-weight: normal;
+	text-align: center;
+}
+
+h2 {
+	font-family: FTYS,"Tahoma",serif;
+	color: #222;
+	font-size: 1.4em;
+	font-weight: normal;
+	margin: 10px auto;	
+	text-shadow: 1px 1px 2px #888;
+	text-align: center;
+}
+
+label {
+	font-size: .75em !important;
+	text-align: left;
+}
+
+#future-visits {
+	background: #DDD;
+	margin: 10px;
+	padding: 10px 0 20px;
+}
+
+#bookings {
+	margin: 10px;
+}
+
+.visit-table {
+	font-family: "Nunito","Tahoma",serif;
+	width: 95%;
+	border-color: #222;
+	margin: 0 auto;
+	background: #DDD;
+}
+
+.visit-table th {
+	background: #222;
+	color: #EEE;
+	border-color: #222;
+	font-size: .8em;
+	padding: 5px 2px;
+	text-align: center;
+	height: 30px;
+}	
+	
+.visit-table td {
+	border-color: #222;		
+	font-size: .75em;
+	padding: 3px;
+	text-align: center;
+	background: #FFF;
+	height: 30px;
+}	
+
+#school-working {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: rgba(255,255,255,0.7);
+	text-align: center;
+}
+
+@media screen and (min-width: 568px) and (max-width: 767px){
+	#school-menu {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 567px) {
+	#school-menu {
+		display: none;
+	}
+	h1 {
+		top: 42px;
+		font-size: 1.4em;
+	}
+	#main {
+		top: 80px;
+	}
+	#school-login-form label {
+		display: block;
+	}
+	#school-login-form input {
+		display: block;
+	}
+	#school-login-form button {
+		display: block;
+	}
+}
+
+/* Footer */
+	
+#gl-footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background: rgba(255,255,255,0.7);
+	text-align: center;
+	z-index: 999;
+	background: #222;	
+	margin-top: 5px;
+	text-align: right;
+	border-radius: 2px;
+}
+
+#footer-text {
+	color:#FFF;	
+	font-size:.8em;
+	font-variant:small-caps;
+	margin: 4px 15px;
+}
+
+@media screen and (max-width: 767px) {
+	#gl-footer {
+	text-align: center;
+	}
+}

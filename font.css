@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'FTYS';
+    src: url('fonts/fty4-webfont.eot');
+    src: url('fonts/fty4-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/fty4-webfont.woff2') format('woff2'),
+         url('fonts/fty4-webfont.woff') format('woff'),
+         url('fonts/fty4-webfont.ttf') format('truetype'),
+         url('fonts/fty4-webfont.svg#fty_skradjhuwn_004regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

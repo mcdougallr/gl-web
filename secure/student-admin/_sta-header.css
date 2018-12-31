@@ -1,0 +1,37 @@
+#header {
+	background: #FF8033;
+}
+
+#top-text{
+	top: 11px;
+}
+
+/* MAIN */
+#main {
+	top: 51px;
+}
+
+@media screen and (max-width: 567px){
+	#main {
+		top: 43px;
+	}
+}
+
+h1 {
+	color: #222;
+	font-size: 1.5em;
+	font-variant: small-caps;
+	font-weight: normal;
+	margin: 0 auto;
+	text-align: center;
+	font-family: FTYS, Georgia, Verdana, serif;
+	padding:  5px 10px; 
+	width: 100%
+}
+
+@media screen and (min-width: 568px) and (max-width: 767px){
+	#top-text {
+		font-size: 1.1em;
+		top: 13px;
+	}
+}

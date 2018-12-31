@@ -1,0 +1,69 @@
+#assign-table a {
+	color: #222;
+	background: transparent;
+	border: none;
+	text-decoration: none;
+}	
+
+/* SESSION TABLE */
+#assign-table table {
+	width: 95%;
+	max-width: 1000px;
+	border-color: #222;
+	background: #DDD;
+	font-size: .9em;
+	margin: 10px auto 25px;
+}
+
+#assign-table th {
+	background: #222;
+	color: #FFF;
+	border-color: #222;
+	font-weight: 400;
+	font-size: 1em;
+	font-variant: small-caps;
+	padding: 4px 3px;
+}	
+
+#assign-table td {
+	border-color: #222;
+	font-size: .9em;
+	text-align: center;
+	padding: 4px 3px;
+	background: #FFF;
+	max-width: 250px;
+}	
+
+/* REPORT PAGE */
+
+.plaintext-button {
+	background: transparent;
+	border: none;
+	font-size: 1.3em;
+	color: #FF8033;
+	font-variant: small-caps;
+}
+
+#assign-table td.accepted {
+	background: #FF8033;
+}
+
+h2 {
+	color: #222;
+	font-size: 1.4em;
+	font-variant: small-caps;
+	font-weight: normal;
+	margin: 4px auto;
+	text-align: center;
+	font-family: FTYS, Georgia, Verdana, serif;
+	width: 100%
+}
+
+@media screen and (max-width: 567px){
+	#assign-table th:nth-of-type(5),
+	#assign-table th:nth-of-type(6),
+	#assign-table td:nth-of-type(5),
+	#assign-table td:nth-of-type(6) {
+		display: none;
+	}
+}

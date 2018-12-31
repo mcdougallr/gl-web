@@ -1,0 +1,473 @@
+@import url("../../font.css");
+
+html {
+	background: #FFF;
+	padding: 0;
+	margin: 0;
+}
+  
+body,
+	.pure-g [class *= "pure-u"],
+	.pure-g-r [class *= "pure-u"] {
+	font-family: "Open Sans", "Arial", "Verdana", sans-serif;
+}
+
+/* Reg Home Title */
+
+#reg-title {
+	font-size: 1.7em;
+	text-align: center;
+	font-family: FTYS,Georgia,Verdana,serif;
+	color: #005600;
+	text-shadow: 1px 1px 1px #AAA;
+}
+
+/* Reg System */
+
+#mobile-menu-button {
+	display: none;
+	position: fixed;
+	left: 10px;
+	top: 7px;
+	z-index: 99;
+	color: #FFF;
+	font-size: 1.6em;
+	text-shadow: 2px 2px 1px #000;
+}
+
+#mobile-menu-button:hover {
+	cursor: pointer;
+}
+
+#working {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(255,255,255,0.7);
+	text-align: center;
+	z-index: 999;
+	display: none;
+}
+
+#loading {
+	position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -25px 0 0 -25px;
+  height: 50px;
+	width: 50px;
+}
+
+#reg-header {
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	z-index: 98;
+}
+
+#header-top {
+	color: #FFF;
+	padding: 5px 15px 5px 10px;
+	border-bottom: 2px solid #222;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#002d00+0,249924+27,005600+60,002d00+100 */
+background: #002d00; /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover,  #002d00 0%, #249924 27%, #005600 60%, #002d00 100%); /* FF3.6-15 */
+background: -webkit-radial-gradient(center, ellipse cover,  #002d00 0%,#249924 27%,#005600 60%,#002d00 100%); /* Chrome10-25,Safari5.1-6 */
+background: radial-gradient(ellipse at center,  #002d00 0%,#249924 27%,#005600 60%,#002d00 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#002d00', endColorstr='#002d00',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+
+#gl-sunman {
+	width: 50px;
+	height: 39px;
+	vertical-align: -8px;
+}
+
+#gl-title {
+	text-align: left;
+	padding-top: 7px;
+}
+
+#reg-header span {
+	display: inline;
+	font-family: FTYS,"Georgia", "Verdana",serif;
+	font-size: 1.8em;
+	text-shadow: 3px 3px 1px #000;
+}
+
+#gl-subtitle {
+  text-align: right;
+  padding: 7px 0;
+}
+
+@media screen and (min-width: 568px) and (max-width: 767px) {
+  	#header-top {
+	  	padding: 2px 0;
+	  	border-bottom: 2px solid #222;
+  	}
+  	#gl-title, #gl-subtitle {
+	    text-align: center;
+	    padding: 0;
+	}
+	#reg-header span {
+		font-size: 1.5em;
+	}
+  	#gl-sunman {
+		width: 36px;
+		height: 27px;
+		vertical-align: -6px;
+	}
+}
+
+@media screen and (max-width: 567px) {
+  #header-top {
+  	padding: 2px 0;
+  }
+  #gl-title, #gl-subtitle {
+    text-align: center;
+    padding: 0;
+  }
+  #reg-header span {
+		font-size: 1.3em;
+	}
+  #gl-sunman {
+		display: none;
+	}
+	#mobile-menu-button {
+		display: block;
+		font-size: 1.3em;
+	}	
+}
+
+@media screen and (max-width: 400px) {
+  #gl-title, #gl-subtitle {
+    text-align: right;
+    padding: 0 5px 0 0;
+  }
+}
+
+/* Navigation */
+
+nav {
+	-webkit-flex: auto;
+	flex: auto;
+	background: #afafaf; 
+	background: -moz-linear-gradient(left,  #afafaf 0%, #D3D3D3 20%, #ffffff 99%); 
+	background: -webkit-linear-gradient(left,  #afafaf 0%,#D3D3D3 20%,#ffffff 99%); 
+	background: linear-gradient(to right,  #afafaf 0%,#D3D3D3 20%,#ffffff 99%); 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#afafaf', endColorstr='#ffffff',GradientType=1 ); 
+	width: 20%;
+	text-align: left;
+	color: #222;	
+	font-weight: 300;
+	margin: 0;
+	font-size: .95em;
+	padding-top: 5px;
+}
+
+nav i {
+	margin-left: 5px;
+}
+
+.nav-text {
+    padding: 5px 0 5px 15px;
+}
+
+.pagecomplete {
+	font-weight: 400;
+	color: #005600;
+}
+
+.pagecurrent {
+	font-weight: 400;
+	color: #326CAA;
+}
+
+@media screen and (max-width: 767px) {
+	nav {
+		font-size: .85em;
+		
+	}
+	.menu-item {
+		padding: 10px 5px;
+	}
+}
+
+@media screen and (max-width: 567px) {
+	nav {
+		display: none;
+		width: auto;
+	}	
+	.nav-text {
+		display: block;
+	}
+}
+
+/* */
+
+#gl-main {
+	display: -webkit-flex;
+   	display: flex;
+   	-webkit-flex-direction: row; 
+   	flex-direction: row;
+   	-webkit-align-items: stretch;
+   	align-items: stretch;
+	margin-top: 66px;
+	width: 100%;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+#gl-wrapper {
+	-webkit-flex: auto;
+	flex: auto;
+	width: 80%;
+	padding: 10px 10px;
+	margin: 0 auto;
+}
+
+p {
+	font-size: 1em;
+	text-align: left;
+	font-weight: 300;
+	margin: 10px 0;
+}
+
+h3 {
+	font-weight: bold;
+    font-size: 1.2em;
+    margin: 8px 0 5px 10px;
+    font-variant: small-caps;
+    text-decoration: underline;
+}
+
+@media screen and (min-width: 568px) and (max-width: 767px) {
+	#gl-main {
+		margin-top: 73px;
+	}
+	
+}
+
+@media screen and (max-width: 567px) {
+	#gl-main {
+		margin-top: 65px;
+		-webkit-flex-direction: column; 
+		flex-direction: column; 
+	}
+	#gl-wrapper {
+		width: auto;
+	}
+	p {font-size: .85em;}
+}
+
+/* FORM */
+
+.pureform {
+  color: #222;
+  text-align: left;
+  width: 100%;
+}
+
+.pure-form label {
+  text-align: left;
+  font-size: .95em;
+  font-weight: 400;
+  width: 100% !important;
+  color: #222;
+	font-family: "Open Sans", "Arial", "Verdana", sans-serif;
+}
+
+.pure-form input, .pure-form select, .pure-form textarea, .radio-text {
+  	height: 45px;
+  	color: #222;
+  	font-weight: 300;
+  	font-size: .9em;
+	font-family: "Open Sans", "Arial", "Verdana", sans-serif;
+}
+
+.button-home {
+	text-align: right;
+	padding: 0;
+}
+
+#button-home a {
+	text-decoration: none;
+  color: #326CAA;
+  font-weight: 300;
+  font-size: 1.2em;
+	font-family: "Open Sans", "Arial", "Verdana", sans-serif;
+}
+
+.gl-submit-button {
+	padding: 10px 0;
+  vertical-align: middle;
+  border: none;
+  color: #005600;
+  font-weight: 400;
+  background: none;
+  height: 50px;
+}
+
+.form-padding {
+	padding: 0 5px 4px;
+}
+
+.form-padding-2 {
+	padding: 0 0 4px;
+}
+
+.input-radio-align {
+	text-align: right;
+}
+
+@media screen and (min-width: 568px) and (max-width: 767px) {
+	.pure-form label, .pure-form input, .pure-form select, .pure-form textarea, .radio-text, .gl-submit-button {
+	  	font-size: .85em;
+	}
+}
+
+@media screen and (max-width: 567px) {
+	.input-radio-align {
+		text-align: left;
+	}
+	.button-home {
+		text-align: left;
+	}
+	.pure-form label {
+	  font-size: .85em;
+	}
+	.pure-form input, .pure-form select, .pure-form textarea, .radio-text {
+	  	font-size: .85em;
+	}
+}
+
+.textarea_expand {
+	overflow: hidden;
+}
+
+#OENtip {
+	  display: none;
+    position: absolute;
+    width: 250px;
+    padding: 5px;
+    font-size: .8em;
+    font-weight: 300;
+    border: 1px solid #222;
+    background: #FFF;
+    box-shadow: 2px 2px 0 #AAA;
+}
+
+.register_button {
+	padding: 15px 30px;
+  color: #FFF;
+  background: #326CAA;
+  margin: 15px auto;
+  border-radius: 15px;
+  box-shadow: 1px 1px 1px #222;
+  border: #AAA 1px solid;
+}
+
+/* */
+
+
+.med_toggle {
+	display: none;
+	padding: 0 0 0 20px;
+}
+
+.program_select {
+	table-layout: fixed;
+	width: 100%;
+	text-align: center;
+	border: #AAA solid 1px;
+	border-spacing: 0;
+  border-collapse: collapse;
+  padding: 0;
+}
+
+.program_select td, .program_select th {
+	border: #AAA solid 1px;
+  padding: 6px;
+  font-size: .9em;
+	font-weight: 300;
+}
+.program_select th {
+	background-color: rgba(0,0,0,.8);
+}
+	
+.program_select th p {
+	font-size: 1.3em;
+	font-weight: 400;
+	color: #FFF;
+	margin: 2px auto;
+	text-align: center;
+}
+
+table.program_select tr.header_cells {
+	background-color: rgba(0,0,0,.1);
+  color: #222;
+}
+
+.forms_link {
+	background-color: rgba(0,50,100,0.6);
+	border: #222 solid 1px;
+	padding: 5px 20px;
+	width: 250px;
+	margin: 0 auto;
+}
+
+/* footer.php */
+	
+#gl-footer {
+	font-size: .8em;
+	width: 100%;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	text-align: right;
+	color: #222;
+	border-top: 1px solid #BBB;
+	background: #FFF;
+	background: -moz-linear-gradient(bottom,  #b6b6b6 0%, #dedede 11%, #fafafa 38%);
+	background: -webkit-linear-gradient(bottom,  #b6b6b6 0%,#dedede 11%,#fafafa 38%);
+	background: linear-gradient(to top,  #b6b6b6 0%,#dedede 11%,#fafafa 38%);
+	filter: progid:DXImageTransform.Microsoft.gradient( endColorstr='#b6b6b6', startColorstr='#fafafa',GradientType=0 );
+}
+
+/* Parsely */
+
+input.parsley-success,
+select.parsley-success {
+  color: #468847 !important;
+  background-color: #DFF0D8 !important;
+  border: 1px solid #D6E9C6 !important;
+}
+
+input.parsley-error,
+select.parsley-error {
+  color: #B94A48 !important;
+  background-color: #F2DEDE !important;
+  border: 1px solid #EED3D7 !important;
+}
+
+/*input {
+  width: 150px;
+  margin: 0 2px !important;
+}*/
+
+ul.parsley-error-list {
+  margin: 2px;
+  list-style-type: none;
+  color: #900;
+  text-align: left;
+  padding: 3px 0 3px 10px;
+  font-size: .8em;
+}
+
+ul.parsley-error-list li {
+  line-height: 11px;
+}

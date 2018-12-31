@@ -1,0 +1,129 @@
+@import url("/font.css");
+
+body {
+  font-family: "Open Sans", "Arial", "Verdana", sans-serif;
+}
+		
+h1 {
+	font-family: "FTYS", "Arial", "Verdana", sans-serif;
+	font-size: 2em;
+	text-align: center;
+	margin: 5px auto;
+	font-weight: normal;
+	font-variant: small-caps;
+}	
+
+h2 {
+	font-size: 1.3em;
+	text-align: center
+}	
+
+h3 {
+	font-size: .9em;
+	text-align: center
+}
+
+h4 {
+	font-family: "FTYS", "Arial", "Verdana", sans-serif;
+	font-size: 1.6em;
+	margin: 5px auto;
+	font-weight: normal;
+	font-variant: small-caps;
+}	
+	
+table {
+	border-collapse: collapse;
+	border: 1px solid #222;
+	font-size: .8em;
+	margin: 0 auto;
+}
+
+th {
+	font-size: 1em;
+	text-align: center;
+	padding: 2px 10px;
+	background: #222;
+	border: 1px solid #222;
+	height: 20px;
+	color: #FFF;
+}
+
+td {
+	font-size: .9em;
+	padding: 2px 10px;
+	border: 1px solid #222;	
+	height: 20px;
+	text-align: center;
+}
+
+#cftc td {
+	border: none;
+	padding: 5px 10px;
+	
+}
+
+p, ul {
+	font-size: .8em;
+}
+
+.pagebreak {
+	page-break-after: always;
+	page-break-inside: avoid;
+}
+
+#logo {
+	position: fixed;
+	top:0;
+	left: 0;
+}
+
+.masterlist {
+	font-size: .8em;
+}
+
+.left {
+	text-align: left;
+}
+
+/* PAYROLL/SCHEDULE TABLE */
+.gl-staff-payroll {
+	font-size: .8em;
+	width: 95%;
+	max-width: 100%;
+	margin: 10px;
+	border: 1px solid #AAA;
+}
+
+.gl-staff-payroll th {
+	background: #333;
+	border: 1px solid #BBB;
+	color: #FFF;
+	font-variant: small-caps;
+	text-align: center;
+	padding: 5px;
+	min-width: 0;
+	height: 30px;
+}
+
+.gl-staff-payroll td {
+	text-align: center;
+	border: 1px solid #AAA;
+	padding: 5px;
+	min-width: 0;
+	white-space: nowrap;
+	height: 20px;
+}
+
+.gl-staff-payroll tr.periodtotal {
+	background: #EEE;
+	font-weight: bold;
+}
+
+.gl-staff-payroll td.periodtotal, .gl-staff-payroll td.summertotal {
+	text-align: right;
+}
+
+.gl-staff-payroll tr.summertotal {
+	background: #CCC;
+	font-weight: bold;
+}
